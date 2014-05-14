@@ -1,4 +1,6 @@
 VigoriseCipRecord::Application.routes.draw do
+  resources :team_vigo_rise_online_systems
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

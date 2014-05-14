@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Name: MyString
+  Date: MyString
+  Time: MyString
+  Number_of_Hours: MyString
+  Reason: MyString
+  Person_In_Charge: MyString
+  Approval_Status: MyString
+
+two:
+  Name: MyString
+  Date: MyString
+  Time: MyString
+  Number_of_Hours: MyString
+  Reason: MyString
+  Person_In_Charge: MyString
+  Approval_Status: MyString
