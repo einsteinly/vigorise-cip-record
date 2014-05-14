@@ -1,4 +1,4 @@
-<%= form2_for(@team_vigo_rise_online_system) do |f| %>
+<%= form_for(@team_vigo_rise_online_system) do |f| %>
   <% if @team_vigo_rise_online_system.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@team_vigo_rise_online_system.errors.count, "error") %> prohibited this team_vigo_rise_online_system from being saved:</h2>
@@ -37,7 +37,7 @@
   </div>
   <div class="field">
     <%= f.label :Approval_Status %><br>
-
+    Approval_Status. = ('PENDING')
   </div>
   <div class="actions">
     <%= f.submit %>
