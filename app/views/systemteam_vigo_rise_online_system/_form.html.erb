@@ -1,0 +1,45 @@
+<%= form_for(@team_vigo_rise_online_system) do |f| %>
+  <% if @team_vigo_rise_online_system.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@team_vigo_rise_online_system.errors.count, "error") %> prohibited this team_vigo_rise_online_system from being saved:</h2>
+
+      <ul>
+      <% @team_vigo_rise_online_system.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :Name %><br>
+    <%= f.text_field :Name %>
+  </div>
+  <div class="field">
+    <%= f.label :Date %><br>
+    <%= f.text_field :Date %>
+  </div>
+  <div class="field">
+    <%= f.label :Time %><br>
+    <%= f.text_field :Time %>
+  </div>
+  <div class="field">
+    <%= f.label :Number_of_Hours %><br>
+    <%= f.text_field :Number_of_Hours %>
+  </div>
+  <div class="field">
+    <%= f.label :Reason %><br>
+    <%= f.text_field :Reason %>
+  </div>
+  <div class="field">
+    <%= f.label :Person_In_Charge %><br>
+    <%= f.text_field :Person_In_Charge %>
+  </div>
+  <div class="field">
+    <%= f.label :Approval_Status %><br>
+    <%= f.text_field :Approval_Status %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
